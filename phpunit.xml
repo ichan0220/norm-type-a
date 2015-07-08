@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="All test suites">
+            <directory>./test</directory>
+        </testsuite>
+        <testsuite name="Adapter mongo">
+            <directory>./test/Norm/Mongo</directory>
+        </testsuite>
+        <testsuite name="Adapter mysql">
+            <directory>./test/Norm/Mysql</directory>
+        </testsuite>
+        <testsuite name="Adapter sqlite">
+            <directory>./test/Norm/Sqlite</directory>
+        </testsuite>
+        <testsuite name="Adapter oracle">
+            <directory>./test/Norm/Oracle</directory>
+        </testsuite>
+        <testsuite name="Adapter OCI">
+            <directory>./test/Norm/OCI</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
